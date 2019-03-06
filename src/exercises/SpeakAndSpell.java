@@ -26,11 +26,6 @@ public class SpeakAndSpell {
 		
 		// 6. Calculate the user's score and give it to them at the end of the game 
 		
-	
-		int score = 4;
-		score %= 0; 
-		
-		System.out.println(score);
 		
 	}
 
