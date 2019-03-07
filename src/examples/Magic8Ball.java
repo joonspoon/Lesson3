@@ -9,7 +9,7 @@ public class Magic8Ball {
 		
 		JOptionPane.showInputDialog("Ask the Magic 8 Ball a yes or no question:");
 		
-		int randomNumber = new Random().nextInt(2);
+		int randomNumber = new Random().nextInt(4);
 		
 		if(randomNumber == 0) {
 			JOptionPane.showMessageDialog(null, "Certainly!");
@@ -18,10 +18,10 @@ public class Magic8Ball {
 			JOptionPane.showMessageDialog(null, "Hell no!");
 		}
 		if (randomNumber == 2) {
-			JOptionPane.showMessageDialog(null, "Hell no!");
+			JOptionPane.showMessageDialog(null, "mmmm perhaps...");
 		}
 		if (randomNumber == 3) {
-			JOptionPane.showMessageDialog(null, "Hell no!");
+			JOptionPane.showMessageDialog(null, "I dunno, try asking Google!");
 		}
 		
 	}
